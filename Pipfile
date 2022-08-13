@@ -16,6 +16,7 @@ pillow = "*"
 redis = "*"
 django-cors-headers = "*"
 celery = "*"
+flower = "*"
 
 [dev-packages]
 autopep8 = "*"
