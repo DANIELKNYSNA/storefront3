@@ -1,6 +1,8 @@
+from store.models import Collection 
 from django.contrib.auth.models import User
 from rest_framework import status
 import pytest
+from model_bakery import baker
 
 
 @pytest.fixture
@@ -22,7 +24,7 @@ class TestCreateCollection:
     # Assert
     assert response.status_code == status.HTTP_401_UNAUTHORIZED
 
-  def test_if_user_is_not_admin_returns_403(self, authenticate, api_client, create_collection):
+  def test_if_user_is_not_admin_returns_403(self, authenticate, create_collection):
     # Arrange
     authenticate(is_staff=False)
     
@@ -53,3 +55,24 @@ class TestCreateCollection:
     # Asserts 
     assert response.status_code == status.HTTP_201_CREATED
     assert response.data['id'] > 0
+
+
+@pytest.mark.django_db
+class TestRetrieveCollection:
+  # Two senarios 
+    # 1. that the collections doesnt exist -> 404 error
+    # 2. that the collection exists -> 200 and the collection should be in the body of the response 
+  def test_if_collection_exists_returns_200(self, api_client):
+    # Arrange
+    collection = baker.make(Collection)
+
+    # Act
+    response = api_client.get(f'/store/collections/{collection.id}/')
+
+    # Assert
+    assert response.status_code == status.HTTP_200_OK
+    assert response.data == {
+      'id': collection.id,
+      'title': collection.title,
+      'products_count': 0
+    }
