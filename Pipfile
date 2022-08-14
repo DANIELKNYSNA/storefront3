@@ -17,6 +17,7 @@ redis = "*"
 django-cors-headers = "*"
 celery = "*"
 flower = "*"
+pytest-watch = "*"
 
 [dev-packages]
 autopep8 = "*"
