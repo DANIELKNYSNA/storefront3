@@ -39,9 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_filters',
-    'corsheaders', 
+    'corsheaders',
     'rest_framework',
     'djoser',
+    'silk',
     'playground',
     'debug_toolbar',
     'store',
@@ -60,7 +61,11 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
 ]
+
+if DEBUG:
+    MIDDLEWARE += ['silk.middleware.SilkyMiddleware']
 
 INTERNAL_IPS = [
     # ...
@@ -190,7 +195,7 @@ ADMINS = [
 CELERY_BROKER_URL = 'redis://localhost:6379/1'
 CELERY_BEAT_SCHEDULE = {
     'notify_customers': {
-        'task': 'playground.tasks.notify_customers', 
+        'task': 'playground.tasks.notify_customers',
         'schedule': 5,
         'args': ['Hello World'],
     }
