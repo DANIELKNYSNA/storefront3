@@ -158,9 +158,6 @@ SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(days=1)
 }
 
-
-DEFAULT_FROM_EMAIL = 'whatever email you want'
-
 ADMINS = [
     ('Daniel', 'admin@cws.com'),
 ]
