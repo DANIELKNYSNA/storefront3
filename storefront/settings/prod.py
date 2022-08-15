@@ -12,7 +12,7 @@ ALLOWED_HOSTS = ["dan-prod.herokuapp.com"]
 
 DATABASE_URL = 'postgres://aqqdqfgrxknrxm:943a7e5c8bdaf82da35557bca2575b09eee8f4d351d1c5518db01632ca1a1c0c@ec2-107-22-238-112.compute-1.amazonaws.com:5432/dfmanspfpl6ufv'
 DATABASES = {
-    'default': dj_database_url.config(env='HEROKU_POSTGRESQL_MAROON_URL')
+    'default': dj_database_url.config()
 }
 
 REDIS_URL = os.environ['REDIS_URL']
