@@ -27,6 +27,7 @@ pytest-django = "*"
 model-bakery = "*"
 locust = "*"
 django-silk = "*"
+redis = "*"
 
 [requires]
 python_version = "3.10"
