@@ -1,8 +1,13 @@
-from django.core.mail import EmailMessage, BadHeaderError
+from django.core.cache import cache
 from django.shortcuts import render
-from templated_mail.mail import BaseEmailMessage
-from .tasks import notify_customers
+import requests
+
 
 def say_hello(request):
-    notify_customers.delay('Hello')    
-    return render(request, 'hello.html', {'name': 'Daniel'})
+    # this gives us a delay of 2 seconds at this endpoint, simulating a slow api call
+    key = 'httpbin_result'
+    if cache.get(key) is None:
+        response = requests.get('https://httpbin.org/delay/2')
+        data = response.json()
+        cache.set(key, data, 10 * 60 )
+    return render(request, 'hello.html', {'name': cache.get(key)})
