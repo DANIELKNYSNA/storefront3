@@ -20,6 +20,7 @@ flower = "*"
 pytest-watch = "*"
 django-redis = "*"
 whitenoise = "*"
+gunicorn = "*"
 
 [dev-packages]
 autopep8 = "*"

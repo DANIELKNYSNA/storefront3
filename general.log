@@ -1,3 +1,14 @@
 Watching for file changes with StatReloader
 /mnt/c/Github/Django 3- Resources/Code/1- Getting Started/Start/storefront3/storefront/settings.py changed, reloading.
 Watching for file changes with StatReloader
+2022-08-15 10:56:20,316 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-08-15 10:57:22,878 (WARNING) - django.request - Unauthorized: /store/collections/
+2022-08-15 10:57:22,909 (WARNING) - django.request - Forbidden: /store/collections/
+2022-08-15 10:57:22,936 (WARNING) - django.request - Bad Request: /store/collections/
+2022-08-15 10:59:50,673 (INFO) - django.utils.autoreload - /mnt/c/Github/Django 3- Resources/Code/1- Getting Started/Start/storefront3/storefront/settings/common.py changed, reloading.
+2022-08-15 10:59:51,429 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-08-15 10:59:53,419 (INFO) - django.utils.autoreload - /mnt/c/Github/Django 3- Resources/Code/1- Getting Started/Start/storefront3/storefront/settings/common.py changed, reloading.
+2022-08-15 10:59:54,190 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-08-15 11:00:17,648 (WARNING) - django.request - Unauthorized: /store/collections/
+2022-08-15 11:00:17,822 (WARNING) - django.request - Forbidden: /store/collections/
+2022-08-15 11:00:18,010 (WARNING) - django.request - Bad Request: /store/collections/
