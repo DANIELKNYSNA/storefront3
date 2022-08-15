@@ -18,6 +18,7 @@ django-cors-headers = "*"
 celery = "*"
 flower = "*"
 pytest-watch = "*"
+django-redis = "*"
 
 [dev-packages]
 autopep8 = "*"
