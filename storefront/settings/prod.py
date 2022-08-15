@@ -10,9 +10,9 @@ SECRET_KEY = os.environ['SECRET_KEY']
 
 ALLOWED_HOSTS = ["dan-prod.herokuapp.com"]
 
-# DATABASE_URL = 'postgres://abislyzfkxfjla:2b6501e7565712476bf54442ce1131c634bd2a6275ab0bda3dfb935669458dd8@ec2-34-234-240-121.compute-1.amazonaws.com:5432/d7css0t32hfps2'
+DATABASE_URL = 'postgres://aqqdqfgrxknrxm:943a7e5c8bdaf82da35557bca2575b09eee8f4d351d1c5518db01632ca1a1c0c@ec2-107-22-238-112.compute-1.amazonaws.com:5432/dfmanspfpl6ufv'
 DATABASES = {
-    'default': dj_database_url.config(env="CLEARDB_DATABASE_URL")
+    'default': dj_database_url.config(env='HEROKU_POSTGRESQL_MAROON_URL')
 }
 
 REDIS_URL = os.environ['REDIS_URL']
