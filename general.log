@@ -13,3 +13,5 @@ Watching for file changes with StatReloader
 2022-08-15 11:00:17,822 (WARNING) - django.request - Forbidden: /store/collections/
 2022-08-15 11:00:18,010 (WARNING) - django.request - Bad Request: /store/collections/
 2022-08-16 07:50:21,483 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-08-16 09:39:36,750 (INFO) - django.utils.autoreload - /home/knysnawebdev/.local/share/virtualenvs/storefront3-K4IzI1at/lib/python3.10/site-packages/rest_framework/fields.py changed, reloading.
+2022-08-16 09:39:37,956 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
