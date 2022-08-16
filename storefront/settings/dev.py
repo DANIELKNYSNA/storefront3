@@ -11,7 +11,15 @@ if DEBUG:
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
-
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'storefront4',
+        'HOST': 'localhost',
+        'USER': 'root',
+        'PASSWORD': '123abc'
+    }
+}
 
 CELERY_BROKER_URL = 'redis://localhost:6379/1'
 
