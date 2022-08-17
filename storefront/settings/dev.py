@@ -14,7 +14,7 @@ if DEBUG:
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'storefront4',
+        'NAME': 'storefront3',
         'HOST': 'localhost',
         'USER': '127.0.0.1',
         'PASSWORD': '123abc'
