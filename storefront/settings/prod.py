@@ -1,6 +1,4 @@
 import os
-
-from .dev import SECRET_KEY
 from .common import *
 import dj_database_url
 

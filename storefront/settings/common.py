@@ -162,6 +162,7 @@ ADMINS = [
     ('Daniel', 'admin@cws.com'),
 ]
 
+DEFAULT_FROM_EMAIL = 'info@cws.com'
 
 CELERY_BEAT_SCHEDULE = {
     'notify_customers': {
