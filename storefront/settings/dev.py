@@ -17,7 +17,8 @@ DATABASES = {
         'NAME': 'storefront3',
         'HOST': '127.0.0.1',
         'USER': 'root',
-        'PASSWORD': '123abc'
+        'PASSWORD': '123abc',
+        'PORT': 3307,
     }
 }
 
