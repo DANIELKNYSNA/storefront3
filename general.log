@@ -30,3 +30,22 @@ Watching for file changes with StatReloader
 2022-08-17 13:55:09,696 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
 2022-08-17 14:00:55,980 (INFO) - django.utils.autoreload - /home/knysnawebdev/.local/share/virtualenvs/storefront3-K4IzI1at/lib/python3.10/site-packages/MySQLdb/converters.py changed, reloading.
 2022-08-17 14:00:56,845 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-08-17 14:04:48,795 (INFO) - django.utils.autoreload - /mnt/c/Github/Django 3- Resources/Code/1- Getting Started/Start/storefront3/storefront/settings/dev.py changed, reloading.
+2022-08-17 14:04:49,582 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-08-17 14:04:51,569 (INFO) - django.utils.autoreload - /mnt/c/Github/Django 3- Resources/Code/1- Getting Started/Start/storefront3/storefront/settings/dev.py changed, reloading.
+2022-08-17 14:04:52,369 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-08-17 14:05:06,227 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-08-17 14:06:26,682 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-08-17 14:06:44,550 (INFO) - django.utils.autoreload - /mnt/c/Github/Django 3- Resources/Code/1- Getting Started/Start/storefront3/storefront/settings/dev.py changed, reloading.
+2022-08-17 14:06:45,362 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-08-17 14:07:01,713 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-08-17 14:08:45,875 (INFO) - django.utils.autoreload - /mnt/c/Github/Django 3- Resources/Code/1- Getting Started/Start/storefront3/storefront/settings/dev.py changed, reloading.
+2022-08-17 14:09:01,213 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-08-17 14:11:35,073 (INFO) - django.utils.autoreload - /mnt/c/Github/Django 3- Resources/Code/1- Getting Started/Start/storefront3/storefront/settings/dev.py changed, reloading.
+2022-08-17 14:11:35,995 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-08-17 14:14:41,563 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-08-17 14:15:07,365 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-08-17 14:16:30,101 (INFO) - django.utils.autoreload - /mnt/c/Github/Django 3- Resources/Code/1- Getting Started/Start/storefront3/storefront/settings/dev.py changed, reloading.
+2022-08-17 14:16:30,936 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-08-17 14:16:32,922 (INFO) - django.utils.autoreload - /mnt/c/Github/Django 3- Resources/Code/1- Getting Started/Start/storefront3/storefront/settings/dev.py changed, reloading.
+2022-08-17 14:16:33,693 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
